@@ -129,6 +129,59 @@ nav {
     gap: 30px;
 }
 
+/* .skill-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    flex-direction: column;
+} */
+
+#skill {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* border: 2px solid black; */
+    width: 70%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0px 230px 130px;
+
+    /* flex-direction: column; */
+    /* padding-top: 130px; */
+    /* margin-top: 130px;
+    margin-bottom: 130px; */
+}
+
+#skill .skill-container {
+
+    /* border: 2px solid black; */
+}
+
+.skill-content {
+    text-align: center;
+    /* border: 2px solid black; */
+
+}
+
+.skill-box {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    /* box-shadow: #312477; */
+}
+
+.skill-card {
+    /* border: 2px solid brown; */
+    box-shadow: 0px 6px 50px 0px #0000002a;
+    max-width: 267px;
+}
+
+.skill-card img {
+    width: 44px;
+    padding: 30px;
+}
+
 /* Shared Class */
 .btn {
     background-color: #FD6E0A;
@@ -152,4 +205,23 @@ nav {
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 30px;
+}
+
+.h4-title-skill-card {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: auto;
+    margin-bottom: 20px;
+    color: #181818;
+    padding-left: 30px;
+    padding-right: 33px;
+}
+
+.p-title-skill-card {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 33px;
 }
