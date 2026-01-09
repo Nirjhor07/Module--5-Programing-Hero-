@@ -5,6 +5,13 @@
 
 header {
     background-color: #FFF8F3;
+    padding-top: 50px;
+    background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    /* background-position: top left; */
+
+
 }
 
 * {
@@ -21,7 +28,6 @@ nav {
     /* border: 2px solid black; */
     align-items: center;
     margin: 0 auto;
-
 }
 
 .nav-list-items {
@@ -58,4 +64,48 @@ nav {
 .spancolor {
     color: #FD6E0A;
     font-weight: bolder;
+}
+
+#Banner-container {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    margin: 46px 38px 0px 230px;
+    justify-content: space-between;
+}
+
+.banner-content h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-content h1 {
+    font-size: 85px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-content {
+    /* border: 2px solid brown; */
+    max-width: 585px;
+    margin-bottom: 184;
+}
+
+.banner-img {
+    margin-bottom: 0;
+    max-width: 585;
+    margin-right: 38;
+    margin-left: 978;
+    /* border: 2px solid black; */
+    margin-top: 46;
 }
