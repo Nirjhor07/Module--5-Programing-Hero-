@@ -200,6 +200,14 @@ nav {
     color: #181818;
 }
 
+#resume .section-header {
+    text-align: center;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .p-unvrsl {
     color: #757575;
     font-size: 18px;
@@ -224,4 +232,56 @@ nav {
     margin-bottom: 30px;
     padding-left: 30px;
     padding-right: 33px;
+}
+
+#resume {
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: center;
+}
+
+#resume .resume-content {
+    display: flex;
+    gap: 71px;
+    /* border: 2px solid rgb(128, 11, 11); */
+}
+
+#resume .resume-container {
+    /* padding: auto; */
+    /* border: 2px solid rgb(7, 185, 126); */
+    /* padding: 130px 277px 113px 230px; */
+}
+
+#resume .education-box,
+.experience-box {
+    max-width: 511px;
+}
+
+.edx-btn {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 113px;
+    /* align-items: center; */
+    /* border: 2px solid black; */
+}
+
+.education-box .education-card {
+    /* border: 2px solid aqua; */
+}
+
+.education-card h2 {
+    padding-left: 30px;
+    font-size: 25px;
+    color: #474747;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.education-card h4 {
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600px;
+    line-height: auto;
 }
