@@ -10,7 +10,7 @@ header {
     background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
     /* background-size: auto 90%; */
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 20px 35px, bottom right;
     height: auto;
     /* background-position: top left; */
 }
