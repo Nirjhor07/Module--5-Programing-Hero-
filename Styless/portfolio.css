@@ -355,3 +355,49 @@ nav {
     gap: 24px;
     flex-direction: column;
 }
+
+
+.hide {
+    display: none !important;
+}
+
+@media screen and (max-width:576px) {
+    #about {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .about-info-card {
+
+        flex-direction: column;
+    }
+
+    #skill {
+        padding: 20px;
+        max-width: 95%;
+    }
+
+    .skill-box {
+        display: block;
+
+        width: 90%;
+    }
+
+    .p-unvrsl {
+        color: #757575;
+        font-size: 10px;
+        line-height: 15px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-box {
+        flex-direction: column;
+
+    }
+
+}
